@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="5.455393">
+<testcase classname="Login to gmail" name="Find Broken links" time="5.455393">
+<system-out><![CDATA[Given I am on "https://gmail.com"...........................................passed
+When I get href links.......................................................passed
+Then status code should be 200..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

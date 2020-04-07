@@ -1,0 +1,111 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-07T10:25:23.352Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2574067117,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Find Broken links",
+        "description": "",
+        "id": "login-to-gmail;find-broken-links",
+        "after": [
+          {
+            "result": {
+              "duration": 91841320,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1743957221,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on \"https://gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://gmail.com\"",
+                  "offset": 8
+                }
+              ],
+              "location": "LoginStepDefs.i_am_on(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1006456601,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I get href links",
+            "match": {
+              "location": "LoginStepDefs.i_get_href_links()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 863855,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefs.status_code_should_be(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@SmokeTest1"
+          }
+        ]
+      }
+    ],
+    "name": "Login to gmail",
+    "description": "",
+    "id": "login-to-gmail",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

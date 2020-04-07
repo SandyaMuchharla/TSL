@@ -1,0 +1,5 @@
+11:25:25.952 [main] INFO  stepDefinitions.Hooks - ========================================================
+11:25:25.959 [main] INFO  stepDefinitions.Hooks - Browser has initialised
+11:25:27.705 [main] INFO  stepDefinitions.LoginStepDefs - Navigated to the url: https://gmail.com
+11:25:28.806 [main] INFO  stepDefinitions.Hooks - Quit the browser
+11:25:28.806 [main] INFO  stepDefinitions.Hooks - ========================================================
